@@ -1,9 +1,6 @@
 <template>
- <div>
-  <h1>Basic Searchm
-  </h1>
-  <NLink to="/">
-   Top Page
-  </NLink>
- </div>
+ <div class="example">
+  <img src="https://st.depositphotos.com/1815767/1392/v/950/depositphotos_13920619-stock-illustration-seamless-science-laboratory-vector-background.jpg" />
+  <p></p>	
+</div>
 </template>

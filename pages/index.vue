@@ -1,6 +1,6 @@
 <template>
  <div>
-  <h1>Welcome to Co-Lab
+  <h1>Co-Lab
   </h1>
   <NLink to="/about">
    What is Co-Lab?
