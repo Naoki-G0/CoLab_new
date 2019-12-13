@@ -19,7 +19,7 @@
   </NLink>
   <br>
   <NLink to="/faq">
-   FAQ
+   FA
   </NLink>
   <br>
   <NLink to="/contact">
