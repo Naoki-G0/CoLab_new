@@ -195,6 +195,72 @@ export const labdata = [
     "active": true
 　　},
 
+
+
+    {
+    "labname": "Kuze Group",
+    "category": "School of Science - Department of Physics",
+    "keywords": [
+                "High energy physics",
+    ],
+    "active": true
+　　},
+
+    {
+    "labname": "Satoh Laboratory",
+    "category": "School of Science - Department of Physics",
+    "keywords": [
+                "Ultrafast spectroscopy",
+    ],
+    "active": true
+　　},
+
+    {
+    "labname": "Sayuma Group",
+    "category": "School of Science - Department of Physics",
+    "keywords": [
+                "Black hole",
+    ],
+    "active": true
+　　},
+
+    {
+    "labname": "Notomi Laboratory",
+    "category": "School of Science - Department of Physics",
+    "keywords": [
+                "Nanomaterial",
+                "Metamaterial"
+    ],
+    "active": true
+　　},
+
+    {
+    "labname": "Koga Laboratory",
+    "category": "School of Science - Department of Physics",
+    "keywords": [
+                "Theoretical physics",
+    ],
+    "active": true
+　　},
+
+    {
+    "labname": "Jinnouchi Group",
+    "category": "School of Science - Department of Physics",
+    "keywords": [
+                "Tracking detector",
+    ],
+    "active": true
+　　},
+
+    {
+    "labname": "Yoshino Laboratory",
+    "category": "School of Science - Department of Physics",
+    "keywords": [
+                "Crystal growth",
+                "Scanning probe microscopy"
+    ],
+    "active": true
+　　},
 ]
 
 

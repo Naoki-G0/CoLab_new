@@ -43,6 +43,11 @@
   </NLink>
   <br>
 
+  <NLink to="/sciphysics">
+   School of Science - Department of Physics
+  </NLink>
+  <br>
+
  </div>
 </template>
 
