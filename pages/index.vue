@@ -25,6 +25,24 @@
   <NLink to="/contact">
    Contact us
   </NLink>
+  <br>
+  <br>
+  <br>
+  <NLink to="/lifescience">
+   Life Science and Technology
+  </NLink>
+  <br>
+
+  <NLink to="/CivilEngine">
+   Civil and Environmental Engineering
+  </NLink>
+  <br>
+  
+  <NLink to="/scimath">
+   School of Science - Department of Mathematics
+  </NLink>
+  <br>
+
  </div>
 </template>
 
