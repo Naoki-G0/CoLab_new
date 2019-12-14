@@ -1,7 +1,16 @@
 <template>
- <div>
-  <h1>Co-Lab
-  </h1>
+ <div class="example">
+  <!-- <img src="https://st2.depositphotos.com/4521519/7577/v/950/depositphotos_75770271-stock-illustration-old-chemistry-laboratory-pattern-set.jpg" /> -->
+  
+  <p>Co-Lab</p>
+
+  <form method="get" action="http://localhost:3000/result">
+  <input type="text" id="name" name="name" placeholder="Freeword" autocomplete="off" required
+       minlength="1" maxlength="25" size="30">
+  </form>
+  <NLink to="/result?category=生物学" tag="button">生物学</NLink>
+  <NLink to="/result?category=物理学" tag="button">物理学</NLink>
+
   <v-btn
       class='about-us-button'
       color="primary"
@@ -10,81 +19,11 @@
     >
       About us
     </v-btn>
-    <br>
-  <NLink to="/about">
-   What is Co-Lab?
-  </NLink>
-  <br>
-  <NLink to="/search">
-   Basic Search
-  </NLink>
-  <br>
-  <NLink to="/register">
-   Register
-  </NLink>
-  <br>
-  <NLink to="/login">
-   Login
-  </NLink>
-  <br>
-  <NLink to="/faq">
-   FAQ
-  </NLink>
-  <br>
-  <NLink to="/contact">
-   Contact us
-  </NLink>
-  <v-card
+    <v-card
     flat
     tile
   >
-  <!--  <v-toolbar
-      color="cyan"
-      dark
-    >
-    -->
-    <!--  <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-      <v-toolbar-title>Application</v-toolbar-title>
-
-      <v-spacer></v-spacer>
--->
-      <!--
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-      -->
-  <!--  </v-toolbar>
-
-    <v-container
-      v-for="type in types"
-      :key="type"
-      class="grey lighten-4"
-      fluid
-    >
-    -->
-  <!--    <v-subheader>{{ type }}</v-subheader>
-
-      <v-row>
-        <v-spacer></v-spacer>
-        <v-col
-          v-for="card in cards"
-          :key="card"
-          cols="12"
-          sm="6"
-          md="4"
-        >
-          <v-card>
-            <v-img
-              :src="`https://picsum.photos/200/300?image=${getImage()}`"
-              height="300px"
-            >
-              <span
-                class="headline white--text pl-4 pt-4"
-                v-text="card.title"
-              ></span>
-            </v-img>
-            -->
+ 
               <v-btn
                 v-for="(social, i) in socials"
                 :key="i"
@@ -136,188 +75,31 @@
                         required
                       ></v-checkbox>
                     </v-col>
-                    <!--
-                    <v-col>
-                      <v-checkbox
-                        v-model="checkbox"
-                        :rules="[v => !!v || 'You must agree to continue!']"
-                        label="Do you agree?"
-                        required
-                      ></v-checkbox>
-                    </v-col>
-                    <v-col>
-                      <v-checkbox
-                        v-model="checkbox"
-                        :rules="[v => !!v || 'You must agree to continue!']"
-                        label="Do you agree?"
-                        required
-                      ></v-checkbox>
-                    </v-col>
-                    <v-col>
-                      <v-checkbox
-                        v-model="checkbox"
-                        :rules="[v => !!v || 'You must agree to continue!']"
-                        label="Do you agree?"
-                        required
-                      ></v-checkbox>
-                    </v-col>
-                  </v-row>
-                  <v-row
-                    class="mb-6"
-                    no-gutters
-                  >
-                    <v-col>
-                      <v-checkbox
-                        v-model="checkbox"
-                        :rules="[v => !!v || 'You must agree to continue!']"
-                        label="Do you agree?"
-                        required
-                      ></v-checkbox>
-                    </v-col>
-                    <v-col>
-                      <v-checkbox
-                        v-model="checkbox"
-                        :rules="[v => !!v || 'You must agree to continue!']"
-                        label="Do you agree?"
-                        required
-                      ></v-checkbox>
-                    </v-col>
-                    <v-col>
-                      <v-checkbox
-                        v-model="checkbox"
-                        :rules="[v => !!v || 'You must agree to continue!']"
-                        label="Do you agree?"
-                        required
-                      ></v-checkbox>
-                    </v-col>
-                    <v-col>
-                      <v-checkbox
-                        v-model="checkbox"
-                        :rules="[v => !!v || 'You must agree to continue!']"
-                        label="Do you agree?"
-                        required
-                      ></v-checkbox>
-                    </v-col>
-                    -->
+                    
                   </v-row>
                 </v-expansion-panel-content>
               </v-expansion-panel>
             </v-expansion-panels>
           </v-row>
-         <!-- <v-radio-group v-model="dialogm1" column>
-           -->
-           <!-- <v-radio label="Math" value="math"></v-radio>
-            <v-radio label="Bahrain" value="bahrain"></v-radio>
-            <v-radio label="Bangladesh" value="bangladesh"></v-radio>
-            <v-radio label="Barbados" value="barbados"></v-radio>
-            <v-radio label="Belarus" value="belarus"></v-radio>
-            <v-radio label="Belgium" value="belgium"></v-radio>
-            <v-radio label="Belize" value="belize"></v-radio>
-            -->
-      <!--      <v-radio label="Benin" value="benin"></v-radio>
-            <v-radio label="Bhutan" value="bhutan"></v-radio>
-            <v-radio label="Bolivia" value="bolivia"></v-radio>
-            <v-radio label="Bosnia and Herzegovina" value="bosnia"></v-radio>
-            <v-radio label="Botswana" value="botswana"></v-radio>
-            <v-radio label="Brazil" value="brazil"></v-radio>
-            <v-radio label="Brunei" value="brunei"></v-radio>
-            <v-radio label="Bulgaria" value="bulgaria"></v-radio>
-            <v-radio label="Burkina Faso" value="burkina"></v-radio>
-            <v-radio label="Burma" value="burma"></v-radio>
-            <v-radio label="Burundi" value="burundi"></v-radio>
-            -->
-        <!--  </v-radio-group>
-        -->
+     
         </v-card-text>
         <v-divider></v-divider>
         <v-card-actions>
           <v-btn 
           class = 'research-button'
           color="blue darken-3" text @click="dailog = false">Research</v-btn>
-        <!--  <v-btn color="blue darken-1" text @click="dailog = false">Save</v-btn>  -->
+      
         </v-card-actions>
       </v-card>
     </v-dialog>
   </v-row>
- <!-- <v-btn
-      color="primary"
-      dark
-      @click.stop="dialog = true"
-    >
-      トリセツ💕
-    </v-btn>
-    -->
+ 
   <v-dialog
       v-model="dailog"
       max-width="770"
     >
       <v-card>
-        <!-- <v-card
-    flat
-    tile
-  >
-    <v-toolbar
-      color="cyan"
-      dark
-    >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-      <v-toolbar-title>Application</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-    </v-toolbar>
-
-    <v-container
-      v-for="type in types"
-      :key="type"
-      class="grey lighten-4"
-      fluid
-    >
-      <v-subheader>{{ type }}</v-subheader>
-
-      <v-row>
-        <v-spacer></v-spacer>
-        <v-col
-          v-for="card in cards"
-          :key="card"
-          cols="12"
-          sm="6"
-          md="4"
-        >
-          <v-card>
-            <v-img
-              :src="`https://picsum.photos/200/300?image=${getImage()}`"
-              height="300px"
-            >
-              <span
-                class="headline white--text pl-4 pt-4"
-                v-text="card.title"
-              ></span>
-            </v-img>
-
-            <v-card-actions class="white justify-center">
-              <v-btn
-                v-for="(social, i) in socials"
-                :key="i"
-                :color="social.color"
-                class="white--text"
-                fab
-                icon
-                small
-              >
-                <v-icon>{{ social.icon }}</v-icon>
-              </v-btn>
-            </v-card-actions>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-  </v-card>
-  -->
+       
         <v-card-title class="headline">Co-Lab とは...</v-card-title>
 
         <v-card-text>
@@ -327,15 +109,7 @@
         <v-card-actions>
           <v-spacer></v-spacer>
 
-        <!--
-            <v-btn
-            color="green darken-1"
-            text
-            @click="dialog = false"
-          >
-            Disagree
-          </v-btn>
-        -->
+       
           <v-btn
             color="green darken-1"
             text
@@ -350,10 +124,20 @@
 </template>
 
 <script>
+import {labdata} from "@/data/data.js"
 import Logo from '~/components/Logo.vue'
+
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
 
+
 export default {
+  created: function() {
+    // `this` は vm インスタンスを指します
+    console.log('a is: ', labdata)
+
+    const filteredLabdata = labdata.filter((l) => l.category === "生物学")
+    console.log('a is: ', filteredLabdata)
+  },
   components: {
     Logo,
     VuetifyLogo
@@ -406,9 +190,62 @@ export default {
         return Math.floor(Math.random() * (max - min + 1)) + min
       },
     },
+ 
 }
 </script>
-<style scoped>
+
+
+<style>
+ .example {
+  /* position: relative; */
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background: url('https://st2.depositphotos.com/4521519/7577/v/950/depositphotos_75770271-stock-illustration-old-chemistry-laboratory-pattern-set.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+.example p {
+  position: absolute;
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 10em;/*サイズ2倍*/
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  /*文字の装飾は省略*/
+  }
+
+.example a:hover{/*カーソルを当てたとき*/
+  background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+  }
+
+.example img {
+  width: 100%;
+  }
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    position: absolute;
+    top: 45.3%;
+    left: 30%;
+    margin: .4rem 0;
+    border: solid black 2px; /*線で囲う*/
+    font-size: 33px;/*文字サイズ*/
+    background-color:white;
+    color: black;/*文字色*/
+}
+
 .about-us-button {
   float: right;
 }
@@ -418,4 +255,6 @@ export default {
 .v-input--selection-controls__ripple {
   color: inherit !important;
 }
+
+
 </style>
