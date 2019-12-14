@@ -3,7 +3,7 @@ export const labdata = [
     "labname": "木村研究室",
     "category": "生物学",
     "keywords": [
-               "エピジェネティクス",
+               "Math-ベクトル解析",
                "ライブイメージング",
                "分子生物学"
     ],

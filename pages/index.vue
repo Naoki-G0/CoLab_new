@@ -5,11 +5,15 @@
   <p>Co-Lab</p>
 
   <form method="get" action="http://localhost:3000/result">
-  <input type="text" id="name" name="name" placeholder="Freeword" autocomplete="off" required
+  <input class="main-search" type="text" id="name" name="name" placeholder="Freeword" autocomplete="off" required
        minlength="1" maxlength="25" size="30">
   </form>
   <NLink to="/result?category=生物学" tag="button">生物学</NLink>
   <NLink to="/result?category=物理学" tag="button">物理学</NLink>
+
+  <NLink to="/lifescience">
+   Result model
+  </NLink>
 
   <v-btn
       class='about-us-button'
@@ -44,7 +48,7 @@
   <v-row justify="center">
     <v-dialog v-model="category" scrollable >
       <template v-slot:activator="{ on }">
-        <v-btn color="primary" dark v-on="on">Open Dialog</v-btn>
+        <v-btn color="primary" dark v-on="on">Category</v-btn>
       </template>
       <v-card>
         <v-card-title>Category</v-card-title>
@@ -65,7 +69,7 @@
                     class="mb-6"
                     no-gutters 
                   >
-                    <v-col v-for="subCategory in category.subCategories">
+                    <v-col v-for="subCategory in category.subCategories" :key="subCategory">
                       <v-checkbox
                         :id="`${category.categoryName}-${subCategory}`"
                         :value="`${category.categoryName}-${subCategory}`"
@@ -73,6 +77,7 @@
                         :rules="[v => !!v || 'You must agree to continue!']"
                         v-bind:label="subCategory"
                         required
+                        @click="deback"
                       ></v-checkbox>
                     </v-col>
                     
@@ -87,7 +92,7 @@
         <v-card-actions>
           <v-btn 
           class = 'research-button'
-          color="blue darken-3" text @click="dailog = false">Research</v-btn>
+          color="blue darken-3" text @click="submit">Research</v-btn>
       
         </v-card-actions>
       </v-card>
@@ -189,6 +194,14 @@ export default {
 
         return Math.floor(Math.random() * (max - min + 1)) + min
       },
+      deback (){
+        console.log(this.checkboxes)
+      },
+      submit(){
+        const checkboxes=this.checkboxes.join(',')
+        this.$router.push(`/result_keywords?keywords=${checkboxes}`)
+      }
+      
     },
  
 }
@@ -234,8 +247,7 @@ label {
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-input,
-label {
+input.main-search {
     position: absolute;
     top: 45.3%;
     left: 30%;
@@ -247,13 +259,15 @@ label {
 }
 
 .about-us-button {
-  float: right;
+    position: absolute;
+    top: 40%;
+    left: 70%;
 }
 .research-button {
-  float: center;
+    float: center;
 }
-.v-input--selection-controls__ripple {
-  color: inherit !important;
+.v-input--selection-controls__ripple  {
+    color:black  inherit
 }
 
 
