@@ -2,7 +2,7 @@
 <template>
 
     <v-content>
-        <div class="text-right">
+       <div class="text-right">
             <NLink to="/">  
             <v-btn rounded color="#00838F" dark>Homepage</v-btn>
             </NLink>
@@ -11,7 +11,7 @@
       <v-container fluid>
         <br>
         <blockquote class="display-3">Tokyo Institute of Technology</blockquote><br>
-        <blockquote class="headline">School of Life Science and Technology</blockquote>
+        <blockquote class="headline">School of Science <br> Department of Mathematics</blockquote>
         <br>
   <div class="text-left">
     <NLink to="/">  
@@ -21,10 +21,10 @@
   </div>
         <br>
         <div class="cyan darken-2 text-center">
-          <p class="headline font-weight-bold white--text">Masuda Laboratory</p>
+          <p class="headline font-weight-bold white--text">Sakie Suzuki research group</p>
         </div>
 
-        <a href="http://www.photobiolab.bio.titech.ac.jp/~official/labhp/en/index.html" class="card-link">    
+        <a href="http://www.is.c.titech.ac.jp/~sakie/sakietech/Home.html" class="card-link">    
          <v-card
             color="#ECEFF1"
             dark
@@ -33,18 +33,18 @@
               <v-col cols=8>
                 <v-card-title
                   class="headline black--text"
-                >No photosynthesis, no life. Why don't you study</v-card-title>
+                >Knot theory and Quantum topology</v-card-title>
 
                 <v-card-subtitle class="subtitle black--text"> <br>
-            We are studying molecular mechanisms  of how photosynthetic organism sense and respond to light quality and quantity to control photosynthesis.
+                I am studying quantum invarients of knots and 3 dimensional manifolds. I enjoy watching the world where geometric intuition and algebraic theory coexist exquisitely.
                 </v-card-subtitle>
 
                  <v-card-subtitle class="subtitle font-weight-bold black--text"> <br>
-                Keywords: Photobiology / Photosynthesis / Plant physiology / Microbiology
+                Keywords: Knot theory / Quantum topology
                  </v-card-subtitle>
               </v-col>
               <v-col cols=4>
-               <v-img class="ma-5" src="https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_masuda.jpg"></v-img>
+               <v-img class="ma-5" src="https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_19881_sakie_suzuki.jpg"></v-img>
               </v-col>
             </v-row>
           </v-card>
@@ -52,10 +52,10 @@
             <br><br>
 
           <div class="cyan darken-2 text-center">
-    <p class="headline font-weight-bold white--text">Masahiro Takinoue Laboratory</p>
+    <p class="headline font-weight-bold white--text">Purkait Laboratory</p>
   </div>
 
-        <a href="http://www.takinoue-lab.jp/en/" class="card-link"> 
+        <a href="http://www.math.titech.ac.jp/~purkait/" class="card-link"> 
          <v-card
             color="#ECEFF1"
             dark
@@ -64,18 +64,18 @@
               <v-col cols=8>
                 <v-card-title
                   class="headline black--text"
-                >DNA molecular robotics and artificial life</v-card-title>
+                >Discovering "New" operators</v-card-title>
 
                 <v-card-subtitle class="subtitle black--text"> <br>
-                Life = information material. We develop molecular robot, DNA nanodevices, and aretificial life by molecular experiments with numerical simulations.
+                We study local Hecke algebras of the covering groups and characterisation of the newspace of half-integral weight modular forms.
                 </v-card-subtitle>
 
-                 <v-card-subtitle class="subtitle font-weight-bold black--text"> <br>
-                Keywords: DNA information devices, Molecular robots, Molecular computers / Bio-electro-mechanohybrid system, Cybernetics / Biophysics, Microfluidics, Soft matter / Artificial life, Synthetic biology
-                 </v-card-subtitle>
+                <v-card-subtitle class="subtitle font-weight-bold black--text"> <br>
+                Keywords: Number theory / Modular forms / Automorphic representations
+                </v-card-subtitle>
               </v-col>
               <v-col cols=4>
-               <v-img class="ma-5" src="https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_21945_takinoue.jpg"></v-img>
+               <v-img class="ma-5" src="https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_20850_purkait.jpg"></v-img>
               </v-col>
             </v-row>
           </v-card>
@@ -83,7 +83,7 @@
           <br><br>
 
           <div class="cyan darken-2 text-center">
-    <p class="headline font-weight-bold white--text">Kajikawa Laboratory</p>
+    <p class="headline font-weight-bold white--text">Hideyuki Miura Research Group</p>
   </div>
 
 
@@ -95,18 +95,17 @@
               <v-col cols=8>
                 <v-card-title
                   class="headline black--text"
-                >Are transposable element alive?</v-card-title>
+                >Self-similar structure in nonlinear PDEs</v-card-title>
 
                 <v-card-subtitle class="subtitle black--text"> <br>
-                There are a huge number of transposable element (TEs) in the genome of organisms. Our aim is to elucidate the amplification mechanism of TEs.
                 </v-card-subtitle>
 
                  <v-card-subtitle class="subtitle font-weight-bold black--text"> <br>
-                Keywords: Transposable element / Retrotransposon / Genome evolution / Epigenetics
+                Keywords: Navier-Stokes equations / Nonlinear partial differential equations
                  </v-card-subtitle>
               </v-col>
               <v-col cols=4>
-               <v-img class="ma-5" src="https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_kajikawa.jpg"></v-img>
+               <v-img class="ma-5" src="https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_10396_miura.jpg"></v-img>
               </v-col>
             </v-row>
           </v-card>
@@ -114,10 +113,9 @@
 <br><br>
 
           <div class="cyan darken-2 text-center">
-    <p class="headline font-weight-bold white--text">Urabe and Hata Laboratory</p>
+    <p class="headline font-weight-bold white--text">Mizumoto Laboratory</p>
   </div>
 
-         <a href="http://www.takinoue-lab.jp/en/" class="card-link"> 
          <v-card
             color="#ECEFF1"
             dark
@@ -126,60 +124,60 @@
               <v-col cols=8>
                 <v-card-title
                   class="headline black--text"
-                >Organic chemistry - The area leading biosciences</v-card-title>
+                >Research into modular forms and automorphic L-functions</v-card-title>
 
                 <v-card-subtitle class="subtitle black--text"> <br>
-                Our projects include the development of new, economical, or environmentally benign organic reactions and their applcation to the preparation of pharmaceuticals.
+                We study multivariable functions with invariance properties under the Siegel modular group, and L-functions determined by them.
                 </v-card-subtitle>
 
                  <v-card-subtitle class="subtitle font-weight-bold black--text"> <br>
-                Keywords: Organic chemistry / Synthetic chemistry / Pharmeceutical chemistry / Natural products chemistry
+                Keywords: Modular forms / L-functions
                  </v-card-subtitle>
               </v-col>
               <v-col cols=4>
-               <v-img class="ma-5" src="https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_urabe_hata.jpg"></v-img>
+               <v-img class="ma-5" src="https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_11396_mizumoto.jpg"></v-img>
+              </v-col>
+            </v-row>
+          </v-card>
+
+<br><br>
+
+          <div class="cyan darken-2 text-center">
+    <p class="headline font-weight-bold white--text">Kato Laboratory</p>
+  </div>
+         <a href="http://www.math.titech.ac.jp/~bungen/index-e.html" class="card-link"> 
+         <v-card
+            color="#ECEFF1"
+            dark
+          >
+            <v-row>
+              <v-col cols=8>
+                <v-card-title
+                  class="headline black--text"
+                >"Analytic" approach to arithmetic geometry</v-card-title>
+
+                <v-card-subtitle class="subtitle black--text"> <br>
+                Our interests lie in the foundations of non-Archimedean geometry - so-called, rigid geometry - and its application to arithmetic/algebraic geometry.
+                </v-card-subtitle>
+
+                 <v-card-subtitle class="subtitle font-weight-bold black--text"> <br>
+                Keywords: Algebraic geometry / Arithmetric geometry
+                 </v-card-subtitle>
+              </v-col>
+              <v-col cols=4>
+               <v-img class="ma-5" src="https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_10396_kato.jpg"></v-img>
               </v-col>
             </v-row>
           </v-card>
           </a>
 
-<br><br>
-
-          <div class="cyan darken-2 text-center">
-    <p class="headline font-weight-bold white--text">Tokunaga Laboratory</p>
-  </div>
-
-         <v-card
-            color="#ECEFF1"
-            dark
-          >
-            <v-row>
-              <v-col cols=8>
-                <v-card-title
-                  class="headline black--text"
-                >Visualization and quantitation of cell mechanisms</v-card-title>
-
-                <v-card-subtitle class="subtitle black--text"> <br>
-                Based on development of techniques in molecular imaging, and quantification, our goal is the understanding of cellular dynamics and mechanisms.
-                </v-card-subtitle>
-
-                 <v-card-subtitle class="subtitle font-weight-bold black--text"> <br>
-                Keywords: Single molecule imaging and quantification / Super-resolution microscopy / Cellular dynamic and function / Chromatin and nuclear dynamics
-                 </v-card-subtitle>
-              </v-col>
-              <v-col cols=4>
-               <v-img class="ma-5" src="https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_tokunaga_sogawa.jpg"></v-img>
-              </v-col>
-            </v-row>
-          </v-card>
-
           <br><br>
 
           <div class="cyan darken-2 text-center">
-    <p class="headline font-weight-bold white--text">Suzuki Laboratory</p>
+    <p class="headline font-weight-bold white--text">Yanagida Laboratory</p>
   </div>
 
-        <a href="http://www.suzukit.bio.titech.ac.jp/" class="card-link">
+        <a href="http://www.math.titech.ac.jp/~yanagida/english-index.html" class="card-link">
          <v-card
             color="#ECEFF1"
             dark
@@ -188,18 +186,18 @@
               <v-col cols=8>
                 <v-card-title
                   class="headline black--text"
-                >Breaking genetic codes in neuronal circuit</v-card-title>
+                >Analysis of nonlinear partial differential equations</v-card-title>
 
                 <v-card-subtitle class="subtitle black--text"> <br>
-                Our research goal is to elucidate the molecular mechanisms underlying neuronal circuit formation and function by means of molecular neurogenetics.
+                We work on analytical and numerical studies of nonlinear partial differential equations.
                 </v-card-subtitle>
 
                  <v-card-subtitle class="subtitle font-weight-bold black--text"> <br>
-                Keywords: Brian / Neuron / Development / Biology
+                Keywords: Partial differential equation / Reaction-diffusion system / Nonlinear analysis
                  </v-card-subtitle>
               </v-col>
               <v-col cols=4>
-               <v-img class="ma-5" src="https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_suzuki.jpg"></v-img>
+               <v-img class="ma-5" src="https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_11357_yanagida.jpg"></v-img>
               </v-col>
             </v-row>
           </v-card>
@@ -208,10 +206,10 @@
                     <br><br>
 
           <div class="cyan darken-2 text-center">
-    <p class="headline font-weight-bold white--text">Kimura Laboratory</p>
+    <p class="headline font-weight-bold white--text">Masaaki Umehara Research Group</p>
   </div>
 
-        <a href="http://kimura-lab.bio.titech.ac.jp/index.html" class="card-link">
+        <a href="http://www.is.titech.ac.jp/~umehara/" class="card-link">
          <v-card
             color="#ECEFF1"
             dark
@@ -220,14 +218,14 @@
               <v-col cols=8>
                 <v-card-title
                   class="headline black--text"
-                >In vivo regulation of epigenetic dynamics</v-card-title>
+                >We are mainly interested in curves and surfaces</v-card-title>
 
                 <v-card-subtitle class="subtitle black--text"> <br>
-                To understand the mechanism of gene expression, we are investigating histone modification dynamics in living cells and organisms.
+                We are working on differential geometry, and interested in maximal sufaces in Lorentzian 3-space and isometric deformations of singularities.
                 </v-card-subtitle>
 
                  <v-card-subtitle class="subtitle font-weight-bold black--text"> <br>
-                Keywords: Epigenetics / Cell nucleus / Transcription / Live cell imaging
+                Keywords: Differential geometry / Manifolds / Curves and surfaces
                  </v-card-subtitle>
               </v-col>
               <v-col cols=4>
