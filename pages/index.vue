@@ -72,8 +72,8 @@
                   >
                     <v-col v-for="subCategory in category.subCategories" :key="subCategory">
                       <v-checkbox
-                        :id="`${category.categoryName}-${subCategory}`"
-                        :value="`${category.categoryName}-${subCategory}`"
+                        :id="subCategory"
+                        :value="subCategory"
                         v-model="checkboxes"
                         :rules="[v => !!v || 'You must agree to continue!']"
                         v-bind:label="subCategory"
@@ -158,16 +158,22 @@ export default {
       cards: ['Good', 'Best', 'Finest'],
       categories: [
         {
-          categoryName: 'Math',
-          subCategories: ['ベクトル解析','幾何学']
+          categoryName: 'Biology',
+          subCategories: ['Epigenetics','Live Cell Imaging','Photobiology','Microbiology','Molecular computers',
+                          'Genome evolution','Synthetic chemistry','Natural products chemistry',
+                          'Super-resolution microscopy','Neuron']
         }, 
         {
-          categoryName: 'Chemistory',
-          subCategories: ['有機化学','物理化学']
+          categoryName: 'Civil and Environment Engineering',
+          subCategories: ['Urban planning','Urban policy','Physical modeling','Geotechnical engineering',
+                          'Earthquake engineering','Education for disaster mitigation','Advance computational methods',
+                          'Water environment','Water treatment','Tourism planning']
         },
         {
-          categoryName: 'Biology',
-          subCategories: ['分子生物学']
+          categoryName: 'Mathmatics',
+          subCategories: ['Knot theory','Number theory','Nonlinear partial differential equations',
+                          'L-functions','Modular forms','Algebraic geometry','Partial differential equation',
+                          'Manifolds','Curves and surfaces']
 
         }
       ],

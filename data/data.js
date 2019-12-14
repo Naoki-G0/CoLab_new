@@ -13,6 +13,10 @@ export const labdata = [
     {
     "labname": "Masuda Laboratory",
     "category": "Biology",
+    "title": "No photosynthesis, no life. Why don't you study",
+    "subtitle": "We are studying molecular mechanisms  of how photosynthetic organism sense and respond to light quality and quantity to control photosynthesis.",
+    "url": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_masuda.jpg",
+    "photo": "http://www.photobiolab.bio.titech.ac.jp/~official/labhp/en/index.html",
     "keywords": [
                 "Photobiology",
                 "Microbiology",
@@ -132,7 +136,7 @@ export const labdata = [
 
     {
     "labname": "Sakie Suzuki research group",
-    "category": "School of Science - Department of Mathematics",
+    "category": "Mathematics",
     "keywords": [
                 "Knot theory",
     ],
@@ -141,7 +145,7 @@ export const labdata = [
 
     {
     "labname": "Purkait Laboratory",
-    "category": "School of Science - Department of Mathematics",
+    "category": "Mathematics",
     "keywords": [
                 "Number theory",
     ],
@@ -150,7 +154,7 @@ export const labdata = [
 
     {
     "labname": "Hideyuki Miura research group",
-    "category": "School of Science - Department of Mathematics",
+    "category": "Mathematics",
     "keywords": [
                 "Nonlinear partial differential equations",
     ],
@@ -159,7 +163,7 @@ export const labdata = [
 
     {
     "labname": "Mizumoto Laboratory",
-    "category": "School of Science - Department of Mathematics",
+    "category": "Mathematics",
     "keywords": [
                 "L-functions",
                 "Modular forms",
@@ -169,7 +173,7 @@ export const labdata = [
 
     {
     "labname": "Kato Laboratory",
-    "category": "School of Science - Department of Mathematics",
+    "category": "Mathematics",
     "keywords": [
                 "Algebraic geometry",
     ],
@@ -178,7 +182,7 @@ export const labdata = [
 
     {
     "labname": "Yanagida Laboratory",
-    "category": "School of Science - Department of Mathematics",
+    "category": "Mathematics",
     "keywords": [
                 "Partial differential equation",
     ],
@@ -187,7 +191,7 @@ export const labdata = [
 
     {
     "labname": "Masaaki Umehara Research Group",
-    "category": "School of Science - Department of Mathematics",
+    "category": "Mathematics",
     "keywords": [
                 "Manifolds",
                 "Curves and surfaces",
