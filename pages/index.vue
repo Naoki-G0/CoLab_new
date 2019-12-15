@@ -4,7 +4,7 @@
   
   <p>Co-Lab</p>
   
-  <form method="get" action="http://localhost:3000/result">
+  <form method="get" action="https://www.titech.ac.jp/english/">
   <input class="main-search" type="text" id="name" name="name" placeholder="Freeword" autocomplete="off" required
        minlength="1" maxlength="25" size="30">
   </form>

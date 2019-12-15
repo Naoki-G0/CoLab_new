@@ -13,7 +13,7 @@
         <br>
 
   <v-row justify="center">
-    <v-btn @click="displayType=!displayType">Swich View</v-btn>
+    <v-btn color="primary" dark @click="displayType=!displayType">Swich View</v-btn>
     <v-dialog v-model="category" scrollable >
       <template v-slot:activator="{ on }">
         <v-btn color="primary" dark v-on="on">Category</v-btn>
@@ -106,9 +106,8 @@
   </template>
   <template v-else>
   <v-row>
-  <v-col cols=4>
-  <template v-for="lab in filteredLabdata">
-  <v-card :key="lab.labname"
+  <v-col cols=4 v-for="lab in filteredLabdata" :key="lab.labname">
+  <v-card
     class="mx-auto"
     max-width="344"
     max-height="688"
@@ -134,7 +133,6 @@
 
     </v-card-actions>
   </v-card>
-  </template>
   </v-col>
   </v-row>
   </template>
