@@ -1,16 +1,5 @@
 export const labdata = [
     {
-    "labname": "Kimura Laboratory",
-    "category": "Biology",
-    "department": "School of Life Science and Technology",
-    "keywords": [
-               "Epigenetics",
-               "Live Cell Imaging",
-    ],
-    "active": true
-    },
-
-    {
         "labname": "Kimura Laboratory",
         "category": "Biology",
         "department": "School of Life Science and Technology",
@@ -28,16 +17,6 @@ export const labdata = [
     {
     "labname": "Masuda Laboratory",
     "category": "Biology",
-    "keywords": [
-                "Photobiology",
-                "Microbiology",
-    ],
-    "active": true
-　　},
-
-    {
-    "labname": "Masuda Laboratory",
-    "category": "Biology",
     "department": "School of Life Science and Technology",
     "title": "No photosynthesis, no life. Why don't you study",
     "subtitle": "We are studying molecular mechanisms  of how photosynthetic organism sense and respond to light quality and quantity to control photosynthesis.",
@@ -46,15 +25,6 @@ export const labdata = [
     "keywords": [
                 "Photobiology",
                 "Microbiology",
-    ],
-    "active": true
-　　},
-
-    {
-    "labname": "Masahiro Takinoue Laboratory",
-    "category": "Biology",
-    "keywords": [
-                "Molecular computers",
     ],
     "active": true
 　　},
@@ -76,16 +46,6 @@ export const labdata = [
     {
     "labname": "Kajikawa Laboratory",
     "category": "Biology",
-    "keywords": [
-                "Epigenetics",
-                "Genome evolution",
-    ],
-    "active": true
-　　},
-
-    {
-    "labname": "Kajikawa Laboratory",
-    "category": "Biology",
     "department": "School of Life Science and Technology",
     "title": "Are transposable element alive?",
     "subtitle": "There are a huge number of transposable element (TEs) in the genome of organisms. Our aim is to elucidate the amplification mechanism of TEs.",
@@ -94,17 +54,6 @@ export const labdata = [
     "keywords": [
                 "Epigenetics",
                 "Genome evolution",
-    ],
-    "active": true
-　　},
-
-
-    {
-    "labname": "Urabe and Hata Laboratory",
-    "category": "Biology",
-    "keywords": [
-                "Synthetic chemistry",
-                "Natural products chemistry",
     ],
     "active": true
 　　},
@@ -124,16 +73,6 @@ export const labdata = [
     "active": true
 　　},
 
-
-    {
-   "labname": "Tokunaga Laboratory",
-    "category": "Biology",
-    "keywords": [
-                "Super-resolution microscopy",
-    ],
-    "active": true
-　　},
-
     {
     "labname": "Tokunaga Laboratory",
     "category": "Biology",
@@ -148,16 +87,6 @@ export const labdata = [
     "active": true
 　　},
 
-
-    {
-    "labname": "Suzuki Laboratory",
-    "category": "Biology",
-    "keywords": [
-                "Neuron",
-                "Brain",
-    ],
-    "active": true
-　　},
 
     {
     "labname": "Suzuki Laboratory",
@@ -263,17 +192,6 @@ export const labdata = [
     "active": true
 　　},
 
-
-
-    {
-    "labname": "Sakie Suzuki research group",
-    "category": "Mathematics",
-    "keywords": [
-                "Knot theory",
-    ],
-    "active": true
-　　},
-
     {
         "labname": "Sakie Suzuki research group",
         "category": "Mathematics",
@@ -288,35 +206,16 @@ export const labdata = [
     "active": true
 　　},
 
-
-    {
-    "labname": "Purkait Laboratory",
-    "category": "Mathematics",
-    "keywords": [
-                "Number theory",
-    ],
-    "active": true
-　　},
-
     {
     "labname": "Purkait Laboratory",
     "category": "Mathematics",
     "department": "School of Science - Department of Mathematics",
-    "title": "Discovering "New" operators",
+    "title": "Discovering \"New\" operators",
     "subtitle": "We study local Hecke algebras of the covering groups and characterisation of the newspace of half-integral weight modular forms.",
     "url": "http://www.math.titech.ac.jp/~purkait/",
     "photo": "https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_20850_purkait.jpg",
     "keywords": [
                 "Number theory",
-    ],
-    "active": true
-　　},
-
-    {
-    "labname": "Hideyuki Miura research group",
-    "category": "Mathematics",
-    "keywords": [
-                "Nonlinear partial differential equations",
     ],
     "active": true
 　　},
@@ -331,16 +230,6 @@ export const labdata = [
     "photo": "https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_10396_miura.jpg",
     "keywords": [
                 "Nonlinear partial differential equations",
-    ],
-    "active": true
-　　},
-
-    {
-    "labname": "Mizumoto Laboratory",
-    "category": "Mathematics",
-    "keywords": [
-                "L-functions",
-                "Modular forms",
     ],
     "active": true
 　　},
@@ -363,31 +252,13 @@ export const labdata = [
     {
     "labname": "Kato Laboratory",
     "category": "Mathematics",
-    "keywords": [
-                "Algebraic geometry",
-    ],
-    "active": true
-　　},
-
-    {
-    "labname": "Kato Laboratory",
-    "category": "Mathematics",
     "department": "School of Science - Department of Mathematics",
-    "title": ""Analytic" approach to arithmetic geometry",
+    "title": "\"Analytic\" approach to arithmetic geometry",
     "subtitle": "Our interests lie in the foundations of non-Archimedean geometry - so-called, rigid geometry - and its application to arithmetic/algebraic geometry.",
     "url": "http://www.math.titech.ac.jp/~bungen/index-e.html",
     "photo": "https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_10396_kato.jpg",
     "keywords": [
                 "Algebraic geometry",
-    ],
-    "active": true
-　　},
-
-    {
-    "labname": "Yanagida Laboratory",
-    "category": "Mathematics",
-    "keywords": [
-                "Partial differential equation",
     ],
     "active": true
 　　},
@@ -409,16 +280,6 @@ export const labdata = [
     {
     "labname": "Masaaki Umehara Research Group",
     "category": "Mathematics",
-    "keywords": [
-                "Manifolds",
-                "Curves and surfaces",
-    ],
-    "active": true
-　　},
-
-    {
-    "labname": "Masaaki Umehara Research Group",
-    "category": "Mathematics",
     "department": "School of Science - Department of Mathematics",
     "title": "We are mainly interested in curves and surfaces",
     "subtitle": "We are working on differential geometry, and interested in maximal sufaces in Lorentzian 3-space and isometric deformations of singularities.",
@@ -427,17 +288,6 @@ export const labdata = [
     "keywords": [
                 "Manifolds",
                 "Curves and surfaces",
-    ],
-    "active": true
-　　},
-
-
-
-    {
-    "labname": "Kuze Group",
-    "category": "School of Science - Department of Physics",
-    "keywords": [
-                "High energy physics",
     ],
     "active": true
 　　},
