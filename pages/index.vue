@@ -8,6 +8,7 @@
   <input class="main-search" type="text" id="name" name="name" placeholder="Freeword" autocomplete="off" required
        minlength="1" maxlength="25" size="30">
   </form>
+
   <v-btn class="category-button" color="primary" dark @click="opencategory">Category</v-btn>
   <v-btn
       class='about-us-button'
@@ -17,6 +18,7 @@
     >
       About us
     </v-btn>
+
   <v-row justify="center">
     <v-dialog v-model="category" scrollable >
       <v-card>
@@ -49,7 +51,6 @@
                         :rules="[v => !!v || 'You must agree to continue!']"
                         v-bind:label="subCategory"
                         required
-                      
                       ></v-checkbox>
                     </v-col>
                     
@@ -129,7 +130,7 @@ export default {
         category: false,
         types: ['Places to Be', 'Places to See'],
         checkboxes: [],
-      cards: ['Good', 'Best', 'Finest'],
+        cards: ['Good', 'Best', 'Finest'],  
       categories: [
         {
           categoryName: 'Biology',
@@ -149,6 +150,12 @@ export default {
                           'L-functions','Modular forms','Algebraic geometry','Partial differential equation',
                           'Manifolds','Curves and surfaces']
 
+        },
+        {
+          categoryName: 'Physics',
+          subCategories: ['Manifolds','Curves and surfaces','Ultrafast spectroscopy','Black hole',
+                          'Nanomaterial','Metamaterial','Theoretical physics',
+                          'Tracking detector','Crystal growth','Scanning probe microscopy']
         }
       ],
       socials: [
@@ -177,6 +184,7 @@ export default {
       },
       opencategory (){
         console.log(this.checkboxes)
+
         this.category =true
       },
       submit(){
