@@ -316,8 +316,7 @@ export const labdata = [
     "url": "http://www.is.titech.ac.jp/~umehara/",
     "photo": "https://educ.titech.ac.jp/common/img/noImage.jpg",
     "keywords": [
-                "Manifolds",
-                "Curves and surfaces",
+                "High energy physics",
     ],
     "active": true
 　　},
@@ -360,7 +359,22 @@ export const labdata = [
     "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_1_nakamura.jpg",
     "keywords": [
                 "Nanomaterial",
-                "Metamaterial"
+                "Metamaterial",
+    ],
+    "active": true
+　　},
+
+    {
+    "labname": "Notomi Laboratory",
+    "category": "Physics",
+    "department": "School of Science - Department of Physics",
+    "title": "Exploring novel optical physics by nano-scale artificial structures",
+    "subtitle": "Investigating various innovation seismic resistant building systems with the aid of sophisticated numerical analysis and simulation techniques.",
+    "url": "http://notomi-lab.phys.titech.ac.jp/",
+    "photo": "https://educ.titech.ac.jp/phys/eng/faculty/research_lab/img/lab_15501_notomi.jpg",
+    "keywords": [
+                "Nanomaterial",
+                "Metamaterial",
     ],
     "active": true
 　　},
@@ -403,8 +417,24 @@ export const labdata = [
     "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_16097_mano.jpg",
     "keywords": [
                 "Crystal growth",
-                "Scanning probe microscopy"
+                "Scanning probe microscopy",
     ],
     "active": true
 　　},
+
+    {
+    "labname": "Yoshino Laboratory",
+    "category": "Physics",
+    "department": "School of Science - Department of Physics",
+    "title": "Spintronics and applied novel materials",
+    "subtitle": "Our research aims to design and develop novel materials for spintronics, which is considered a prospective technology to replace current eletronics",
+    "url": "http://www.ss.phys.titech.ac.jp/",
+    "photo": "https://educ.titech.ac.jp/phys/eng/faculty/research_lab/img/lab_10396_yoshino.jpg",
+    "keywords": [
+                "Crystal growth",
+                "Scanning probe microscopy",
+    ],
+    "active": true
+　　},
+
 ]
