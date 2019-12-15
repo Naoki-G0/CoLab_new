@@ -250,8 +250,7 @@
       source: String,
     },
     data: () => ({
-            }
-        }
+
 
     }),
     message: "School of Life Science and Technology",

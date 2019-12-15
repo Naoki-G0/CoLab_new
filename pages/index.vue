@@ -15,6 +15,12 @@
    Result model
   </NLink>
 
+<br>
+
+  <NLink to="/searchbydepartment">
+   Search by Department
+  </NLink>
+
   <v-btn
       class='about-us-button'
       color="primary"
