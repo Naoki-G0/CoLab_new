@@ -15,7 +15,6 @@
    Result model
   </NLink>
 
-
   <v-btn
       class='about-us-button'
       color="primary"
@@ -78,7 +77,7 @@
                         :rules="[v => !!v || 'You must agree to continue!']"
                         v-bind:label="subCategory"
                         required
-                        
+
                       ></v-checkbox>
                     </v-col>
                     
@@ -155,7 +154,7 @@ export default {
         category: false,
         types: ['Places to Be', 'Places to See'],
         checkboxes: [],
-      cards: ['Good', 'Best', 'Finest'],
+        cards: ['Good', 'Best', 'Finest'],  
       categories: [
         {
           categoryName: 'Biology',
@@ -203,7 +202,7 @@ export default {
       },
       deback (){
         console.log(this.checkboxes)
-      },
+      }, 
       submit(){
         const checkboxes=this.checkboxes.join(',')
         this.$router.push(`/result_keywords?keywords=${checkboxes}`)
