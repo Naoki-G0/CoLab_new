@@ -15,6 +15,7 @@
     <NLink to="/">  
         <v-btn rounded color="#00838F" dark>Search</v-btn>
     </NLink>
+    <input v-mode="Search" placeholder="Search" style="background-color:white; width: 300px; color: black;"></v-input>
   </div>
   <div v-for="lab in filteredLabdata" :key="lab.labname">
         <br>
@@ -22,11 +23,11 @@
           <p class="headline font-weight-bold white--text">{{lab.labname}}</p>
         </div>
 
-        <blockquote class="headline"> <br>
+        <blockquote class="headline">
           {{lab.department}}
         </blockquote>
 
-        <a :href="lab.photo" class="card-link" target="_blank" rel="noopener noreferer">    
+        <a :href="lab.url" class="card-link" target="_blank" rel="noopener noreferer">    
          <v-card
             color="#ECEFF1"
             dark
@@ -46,7 +47,7 @@
                  </v-card-subtitle>
               </v-col>
               <v-col cols=4>
-               <v-img class="ma-5" :src="lab.url"></v-img>
+               <v-img class="ma-5" :src="lab.photo"></v-img>
               </v-col>
             </v-row>
           </v-card>

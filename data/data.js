@@ -2,6 +2,7 @@ export const labdata = [
     {
     "labname": "Kimura Laboratory",
     "category": "Biology",
+    "department": "School of Life Science and Technology",
     "keywords": [
                "Epigenetics",
                "Live Cell Imaging",
@@ -16,8 +17,8 @@ export const labdata = [
     "department": "School of Life Science and Technology",
     "title": "No photosynthesis, no life. Why don't you study",
     "subtitle": "We are studying molecular mechanisms  of how photosynthetic organism sense and respond to light quality and quantity to control photosynthesis.",
-    "url": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_masuda.jpg",
-    "photo": "http://www.photobiolab.bio.titech.ac.jp/~official/labhp/en/index.html",
+    "url": "http://www.photobiolab.bio.titech.ac.jp/~official/labhp/en/index.html",
+    "photo": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_masuda.jpg",
     "keywords": [
                 "Photobiology",
                 "Microbiology",
@@ -78,6 +79,11 @@ export const labdata = [
     {
     "labname": "Nakai Laboratory",
     "category": "Civil and Environment Engineering",
+    "department": "School of Civil and Environment Engineering",
+    "title": "Making cities better",
+    "subtitle": "Our lab is dedicated to the pursuit of desirable goals for the city, and the examination of ways of achieving them.",
+    "url": "https://educ.titech.ac.jp/arch/eng/",
+    "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_nakai.jpg",
     "keywords": [
                 "Urban planning",
                 "Urban policy",
@@ -87,7 +93,12 @@ export const labdata = [
 
     {
     "labname": "Takemura Laboratory",
-    "category": "Civil and Environment Engineering",
+    "category": "Civil and Environment Engineering",  
+    "department": "School of Civil and Environment Engineering",
+    "title": "Knowing invisible environments in the ground",
+    "subtitle": "We are aiming to visualize and improve the various environments in the ground from the foundations to the ground water.",
+    "url": "https://educ.titech.ac.jp/arch/eng/",
+    "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_takemura.jpg",  
     "keywords": [
                 "Physical modeling",
                 "Geotechnical engineering",
@@ -98,6 +109,11 @@ export const labdata = [
     {
     "labname": "Morikawa Laboratory",
     "category": "Civil and Environment Engineering",
+    "department": "School of Civil and Environment Engineering",
+    "title": "Knowledge on Earthquake and Disaster Mitigation",
+    "subtitle": "",
+    "url": "https://educ.titech.ac.jp/arch/eng/",
+    "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_morikawa.jpg",  
     "keywords": [
                 "Earthquake engineering",
                 "Education for disaster mitigation",
@@ -108,6 +124,11 @@ export const labdata = [
     {
     "labname": "Anil Laboratory",
     "category": "Civil and Environment Engineering",
+    "department": "School of Civil and Environment Engineering",
+    "title": "Building earthquake resilient structures",
+    "subtitle": "Investigating various innovation seismic resistant building systems with the aid of sophisticated numerical analysis and simulation techniques.",
+    "url": "https://educ.titech.ac.jp/arch/eng/",
+    "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_anil.jpg",  
     "keywords": [
                 "Advance computational methods",
     ],
@@ -117,6 +138,11 @@ export const labdata = [
     {
     "labname": "Yoshimura and Fuji Laboratory",
     "category": "Civil and Environment Engineering",
+    "department": "School of Civil and Environment Engineering",
+    "title": "We promote sustainable water use and ecosystems.",
+    "subtitle": "We create innovative knowledge and management technology on water use and aquatic ecosystem, which ensure the sustainablility of water environment.",
+    "url": "https://educ.titech.ac.jp/arch/eng/",
+    "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_yoshimura_fujii.jpg",  
     "keywords": [
                 "Water environment",
                 "Water treatment",
@@ -127,6 +153,11 @@ export const labdata = [
     {
     "labname": "Soshiroda Laboratory",
     "category": "Civil and Environment Engineering",
+    "department": "School of Civil and Environment Engineering",
+    "title": "What is Tourism-Based Community Development?",
+    "subtitle": "We research tourism, based on community design and city planning, and clarify how to build an attractive space to both residents and visitors.",
+    "url": "https://educ.titech.ac.jp/arch/eng/",
+    "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_soshiroda.jpg",  
     "keywords": [
                 "Tourism planning",
     ],
