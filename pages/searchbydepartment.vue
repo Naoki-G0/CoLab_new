@@ -20,23 +20,23 @@
     max-height="688"
   >
     <v-img
-      src="https://wallpapercave.com/wp/wp2063104.jpg"
+      :src="lab.photo"
       height="200px"
     ></v-img>
 
     <v-card-title>
-      Civil and Environment <br> Engineering
+      {{lab.title}}
     </v-card-title>
 
     <v-card-subtitle>
-      School of Environment and Society <br> Department of Civil and Environmental Engineering 
+      {{lab.subtitle}}
     </v-card-subtitle>
 
-    <NLink to="/CivilEngine">  
+    <a :href="lab.url">  
         <v-card-actions>
-            <v-btn rounded color="#00838F" dark>Search</v-btn>
+            <v-btn rounded color="#00838F" dark>HP</v-btn>
         </v-card-actions>
-    </NLink>
+    </a>
 
 
       <v-spacer></v-spacer>
@@ -53,7 +53,7 @@
         <v-divider></v-divider>
 
         <v-card-text>
-        Building our environment and societies, protecting life, and committing to future prosperity
+        {{}}
         </v-card-text>
       </div>
     </v-expand-transition>

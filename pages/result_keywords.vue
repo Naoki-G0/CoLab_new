@@ -13,6 +13,7 @@
         <br>
 
   <v-row justify="center">
+    <v-btn @click="displayType=!displayType">Swich View</v-btn>
     <v-dialog v-model="category" scrollable >
       <template v-slot:activator="{ on }">
         <v-btn color="primary" dark v-on="on">Category</v-btn>
@@ -65,6 +66,7 @@
       </v-card>
     </v-dialog>
   </v-row>
+  <template v-if="displayType">
   <div v-for="lab in filteredLabdata" :key="lab.labname">
         <br>
         <div class="cyan darken-2 text-center">
@@ -101,6 +103,41 @@
           </v-card>
           </a>
   </div>
+  </template>
+  <template v-else>
+  <v-row>
+  <v-col cols=4>
+  <template v-for="lab in filteredLabdata">
+  <v-card :key="lab.labname"
+    class="mx-auto"
+    max-width="344"
+    max-height="688"
+  >
+    <v-img
+      :src="lab.photo"
+      height="200px"
+    ></v-img>
+
+    <v-card-title>
+      {{lab.title}}
+    </v-card-title>
+
+    <v-card-subtitle>
+      {{lab.subtitle}}
+    </v-card-subtitle>
+
+   <a :href="lab.url">  
+        <v-card-actions>
+            <v-btn rounded color="#00838F" dark>HP</v-btn>
+        </v-card-actions>
+    </a>
+
+    </v-card-actions>
+  </v-card>
+  </template>
+  </v-col>
+  </v-row>
+  </template>
         </v-container>
     </v-content>
  </div>
@@ -140,6 +177,7 @@ export default {
          {
           dialogm1: '',
          dailog: false,
+         displayType: true,
          category: false,
          types: ['Places to Be', 'Places to See'],
          checkboxes: [],
