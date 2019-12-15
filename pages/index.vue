@@ -41,10 +41,6 @@
               </v-btn>
 
           </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-  </v-card>
   <v-row justify="center">
     <v-dialog v-model="category" scrollable >
       <template v-slot:activator="{ on }">
@@ -174,6 +170,12 @@ export default {
                           'L-functions','Modular forms','Algebraic geometry','Partial differential equation',
                           'Manifolds','Curves and surfaces']
 
+        },
+        {
+          categoryName: 'Physics',
+          subCategories: ['Manifolds','Curves and surfaces','Ultrafast spectroscopy','Black hole',
+                          'Nanomaterial','Metamaterial','Theoretical physics',
+                          'Tracking detector','Crystal growth','Scanning probe microscopy']
         }
       ],
       socials: [

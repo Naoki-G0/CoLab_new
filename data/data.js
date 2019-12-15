@@ -3,13 +3,28 @@ export const labdata = [
         "labname": "Kimura Laboratory",
         "category": "Biology",
         "department": "School of Life Science and Technology",
-        "title": "In viovo regulation of epigenetic dynamics",
+        "title": "In vivo regulation of epigenetic dynamics",
         "subtitle": "To understand the mechanism of gene expression, we are investigating histone modification dynamics in living cells and organisms.",
         "url": "http://kimura-lab.bio.titech.ac.jp/index.html",
         "photo": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_kimura.jpg",
         "keywords": [
             "Epigenetics",
             "Live Cell Imaging",
+        ],
+        "active": true
+    　　},
+
+    {
+        "labname": "Kitao Laboratory",
+        "category": "Biology",
+        "department": "School of Life Science and Technology",
+        "title": "No photosynthesis, no life. Why don't you study",
+        "subtitle": "We are studying molecular mechanisms  of how photosynthetic organism sense and respond to light quality and quantity to control photosynthesis.",
+        "url": "http://www.kitao.bio.titech.ac.jp/indexE.html",
+        "photo": "https://educ.titech.ac.jp/common/img/noImage.jpg",
+        "keywords": [
+                    "Nanomaterial",
+                    "Microbiology",
         ],
         "active": true
     　　},
@@ -284,7 +299,7 @@ export const labdata = [
     "title": "We are mainly interested in curves and surfaces",
     "subtitle": "We are working on differential geometry, and interested in maximal sufaces in Lorentzian 3-space and isometric deformations of singularities.",
     "url": "http://www.is.titech.ac.jp/~umehara/",
-    "photo": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_kimura.jpg",
+    "photo": "https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_10396_umehara.jpg",
     "keywords": [
                 "Manifolds",
                 "Curves and surfaces",
@@ -296,10 +311,10 @@ export const labdata = [
     "labname": "Kuze Group",
     "category": "Physics",
     "department": "School of Science - Department of Physics",
-    "title": "We are mainly interested in curves and surfaces",
-    "subtitle": "We are working on differential geometry, and interested in maximal sufaces in Lorentzian 3-space and isometric deformations of singularities.",
+    "title": "Exploring the ultimate constituents of matter",
+    "subtitle": "What are our bodies, the stars, and all things around us made of? What are the forces that act between them? The study of particle physics pursues such fundamental questions.",
     "url": "http://www.is.titech.ac.jp/~umehara/",
-    "photo": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_kimura.jpg",
+    "photo": "https://educ.titech.ac.jp/common/img/noImage.jpg",
     "keywords": [
                 "Manifolds",
                 "Curves and surfaces",
@@ -309,7 +324,12 @@ export const labdata = [
 
     {
     "labname": "Satoh Laboratory",
-    "category": "School of Science - Department of Physics",
+    "category": "Physics",
+    "department": "School of Science - Department of Physics",
+    "title": "Control of magnetic wave by ultrashort light pulses",
+    "subtitle": "We study ultrafast and coherent control of magnetic materials by use of femtosecond light pulses, and understanding of the mechanisms for pioneering \"optomagnonics\"",
+    "url": "https://satoh.phys.titech.ac.jp/en/",
+    "photo": "https://educ.titech.ac.jp/common/img/noImage.jpg",  
     "keywords": [
                 "Ultrafast spectroscopy",
     ],
@@ -317,8 +337,13 @@ export const labdata = [
 　　},
 
     {
-    "labname": "Sayuma Group",
-    "category": "School of Science - Department of Physics",
+    "labname": "Kawai Laboratory",
+    "category": "Physics",
+    "department": "School of Science - Department of Physics",
+    "title": "Deciphering Biggest Explosions in the Distant Universe",
+    "subtitle": "We decipher violent astrophysical transient phenomena with various observations using robotic telescopes and scientific satellites.",
+    "url": "http://www.hp.phys.titech.ac.jp/",
+    "photo": "https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_11403_honda.jpg",
     "keywords": [
                 "Black hole",
     ],
@@ -326,8 +351,13 @@ export const labdata = [
 　　},
 
     {
-    "labname": "Notomi Laboratory",
-    "category": "School of Science - Department of Physics",
+    "labname": "Suyama Laboratory",
+    "category": "Physics",
+    "department": "School of Science - Department of Physics",
+    "title": "Challenging important problems in cosmology",
+    "subtitle": "There are many unsolved problems in cosmology such as dark matter, dark energy, black hole, structures in the Universe, and so on. We address these challenges by means of theoretical physics.",
+    "url": "http://www.th.phys.titech.ac.jp/cosmo/",
+    "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_1_nakamura.jpg",
     "keywords": [
                 "Nanomaterial",
                 "Metamaterial"
@@ -336,8 +366,13 @@ export const labdata = [
 　　},
 
     {
-    "labname": "Koga Laboratory",
-    "category": "School of Science - Department of Physics",
+    "labname": "Kawamura Laboratory",
+    "category": "Physics",
+    "department": "School of Science - Department of Physics",
+    "title": "Insights into hot dense plasma with atomic processes",
+    "subtitle": "We are working on theoretical and numerical studies into high energy density plasma to gain insight into its dynamics and radiative properties.",
+    "url": "http://www.plasma.phys.sci.titech.ac.jp/index-eng.html",
+    "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_hanaoka.jpg",
     "keywords": [
                 "Theoretical physics",
     ],
@@ -345,8 +380,13 @@ export const labdata = [
 　　},
 
     {
-    "labname": "Jinnouchi Group",
-    "category": "School of Science - Department of Physics",
+    "labname": "Kanamori Group",
+    "category": "Physics",
+    "department": "School of Science - Department of Physics",
+    "title": "Coherent interaction with light and molecules",
+    "subtitle": "The research subject covers development of new spectroscopic techniques using coherent light and its application to atomic and molecular spectroscopy.",
+    "url": "http://www.molec.ap.titech.ac.jp/E-index.html",
+    "photo": "https://educ.titech.ac.jp/common/img/noImage.jpg",
     "keywords": [
                 "Tracking detector",
     ],
@@ -354,8 +394,13 @@ export const labdata = [
 　　},
 
     {
-    "labname": "Yoshino Laboratory",
-    "category": "School of Science - Department of Physics",
+    "labname": "Somiya Laboratory",
+    "category": "Physics",
+    "department": "School of Science - Department of Physics",
+    "title": "Observing space-time ripples from a distant universe",
+    "subtitle": "We work on the development of the Japanese gravitational wave detector KAGRA. A gravitational wave can be produced by a blackhole merger or a neutron star inspiral, providing us with new information about atomic physics and the universe.",
+    "url": "http://www.gravity.ircs.titech.ac.jp/about.html",
+    "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_16097_mano.jpg",
     "keywords": [
                 "Crystal growth",
                 "Scanning probe microscopy"
