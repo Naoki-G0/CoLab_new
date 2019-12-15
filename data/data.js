@@ -21,7 +21,7 @@ export const labdata = [
         "title": "No photosynthesis, no life. Why don't you study",
         "subtitle": "We are studying molecular mechanisms  of how photosynthetic organism sense and respond to light quality and quantity to control photosynthesis.",
         "url": "http://www.kitao.bio.titech.ac.jp/indexE.html",
-        "photo": "https://educ.titech.ac.jp/common/img/noImage.jpg",
+        "photo": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_hirasawa.jpg",
         "keywords": [
                     "Nanomaterial",
                     "Microbiology",
@@ -154,7 +154,7 @@ export const labdata = [
     "category": "Civil and Environment Engineering",
     "department": "School of Civil and Environment Engineering",
     "title": "Knowledge on Earthquake and Disaster Mitigation",
-    "subtitle": "",
+    "subtitle": "We investigate variational problems arising in nature and clarify their underlying principles through mathematical abstraction. ",
     "url": "https://educ.titech.ac.jp/arch/eng/",
     "photo": "https://educ.titech.ac.jp/cv/eng/faculty/research_lab/img/lab_10396_morikawa.jpg",  
     "keywords": [
@@ -240,7 +240,7 @@ export const labdata = [
     "category": "Mathematics",
     "department": "School of Science - Department of Mathematics",
     "title": "Self-similar structure in nonlinear PDEs",
-    "subtitle": "",
+    "subtitle": "We study geometric constructions such as Floer homology in relation to combinatorial quantities associated to knots and graphs.",
     "url": "",
     "photo": "https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_10396_miura.jpg",
     "keywords": [
@@ -271,7 +271,7 @@ export const labdata = [
     "title": "\"Analytic\" approach to arithmetic geometry",
     "subtitle": "Our interests lie in the foundations of non-Archimedean geometry - so-called, rigid geometry - and its application to arithmetic/algebraic geometry.",
     "url": "http://www.math.titech.ac.jp/~bungen/index-e.html",
-    "photo": "https://educ.titech.ac.jp/math/eng/faculty/research_lab/img/lab_10396_kato.jpg",
+    "photo": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_21051_fujie.jpg",
     "keywords": [
                 "Algebraic geometry",
     ],
@@ -314,7 +314,7 @@ export const labdata = [
     "title": "Exploring the ultimate constituents of matter",
     "subtitle": "What are our bodies, the stars, and all things around us made of? What are the forces that act between them? The study of particle physics pursues such fundamental questions.",
     "url": "http://www.is.titech.ac.jp/~umehara/",
-    "photo": "https://educ.titech.ac.jp/common/img/noImage.jpg",
+    "photo": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_maruyama.jpg",
     "keywords": [
                 "High energy physics",
     ],
@@ -328,7 +328,7 @@ export const labdata = [
     "title": "Control of magnetic wave by ultrashort light pulses",
     "subtitle": "We study ultrafast and coherent control of magnetic materials by use of femtosecond light pulses, and understanding of the mechanisms for pioneering \"optomagnonics\"",
     "url": "https://satoh.phys.titech.ac.jp/en/",
-    "photo": "https://educ.titech.ac.jp/common/img/noImage.jpg",  
+    "photo": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_nakamura_yatsunami.jpg",  
     "keywords": [
                 "Ultrafast spectroscopy",
     ],
@@ -400,7 +400,7 @@ export const labdata = [
     "title": "Coherent interaction with light and molecules",
     "subtitle": "The research subject covers development of new spectroscopic techniques using coherent light and its application to atomic and molecular spectroscopy.",
     "url": "http://www.molec.ap.titech.ac.jp/E-index.html",
-    "photo": "https://educ.titech.ac.jp/common/img/noImage.jpg",
+    "photo": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_kume_shiraki.jpg",
     "keywords": [
                 "Tracking detector",
     ],

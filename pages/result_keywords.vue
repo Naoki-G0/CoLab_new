@@ -13,10 +13,10 @@
         <br>
 
   <v-row justify="center">
-    <v-btn color="primary" dark @click="displayType=!displayType">Swich View</v-btn>
+    <v-btn class=btn1 color="primary" dark @click="displayType=!displayType">Swich View</v-btn>
     <v-dialog v-model="category" scrollable >
       <template v-slot:activator="{ on }">
-        <v-btn color="primary" dark v-on="on">Category</v-btn>
+        <v-btn class=btn2 color="primary" dark v-on="on">Category</v-btn>
       </template>
       <v-card>
         <v-card-title>Category</v-card-title>
