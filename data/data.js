@@ -13,6 +13,7 @@ export const labdata = [
     {
     "labname": "Masuda Laboratory",
     "category": "Biology",
+    "department": "School of Life Science and Technology",
     "title": "No photosynthesis, no life. Why don't you study",
     "subtitle": "We are studying molecular mechanisms  of how photosynthetic organism sense and respond to light quality and quantity to control photosynthesis.",
     "url": "https://educ.titech.ac.jp/bio/eng/faculty/research_lab/img/lab_10396_masuda.jpg",

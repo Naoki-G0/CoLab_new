@@ -78,7 +78,7 @@
                         :rules="[v => !!v || 'You must agree to continue!']"
                         v-bind:label="subCategory"
                         required
-                        @click="deback"
+                        
                       ></v-checkbox>
                     </v-col>
                     

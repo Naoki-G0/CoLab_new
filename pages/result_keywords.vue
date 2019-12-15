@@ -17,11 +17,14 @@
     </NLink>
   </div>
   <div v-for="lab in filteredLabdata" :key="lab.labname">
-    <blockquote class="headline">School of Life Science and Technology</blockquote>
         <br>
         <div class="cyan darken-2 text-center">
           <p class="headline font-weight-bold white--text">{{lab.labname}}</p>
         </div>
+
+        <blockquote class="headline"> <br>
+          {{lab.department}}
+        </blockquote>
 
         <a :href="lab.photo" class="card-link" target="_blank" rel="noopener noreferer">    
          <v-card
