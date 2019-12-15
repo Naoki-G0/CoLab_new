@@ -59,7 +59,7 @@
         <v-card-actions>
           <v-btn 
           class = 'research-button'
-          color="blue darken-3" text @click="submit">Research</v-btn>
+          color="blue darken-3" text @click="submit();category=false">Research</v-btn>
       
         </v-card-actions>
       </v-card>
@@ -127,6 +127,7 @@ export default {
       return flag
     })
     console.log('a is: ', this.filteredLabdata)
+    this.checkboxes=selectedKeywords
   },
   components: {
     Logo,
@@ -199,7 +200,17 @@ export default {
       }, 
       submit(){
         const checkboxes=this.checkboxes.join(',')
-        this.$router.push(`/result_keywords?keywords=${checkboxes}`)
+        console.log(checkboxes)
+         this.filteredLabdata = labdata.filter((l) => {
+      let flag=false
+      l.keywords.forEach(keyword => {
+        if(checkboxes.includes(keyword)) {
+          flag=true
+          return
+        }
+      })
+      return flag
+    })
       }
       
     },

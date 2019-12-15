@@ -22,9 +22,6 @@
   <v-row justify="center">
     <v-dialog v-model="category" scrollable >
       <v-card>
-        <template v-slot:activator="{ on }">
-        <v-btn color="primary" dark v-on="on">Category</v-btn>
-      </template>
         <v-card-title>Category</v-card-title>
         <v-divider></v-divider>
         <v-card-text style="height: 500px;">
