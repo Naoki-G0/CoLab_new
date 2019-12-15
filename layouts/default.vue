@@ -116,3 +116,8 @@ export default {
   }
 }
 </script>
+<style>
+.v-application .v-input--selection-controls__input .accent--text {
+  color: #FFF !important;
+}
+</style>
