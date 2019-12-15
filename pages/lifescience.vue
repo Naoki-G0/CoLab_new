@@ -117,7 +117,7 @@
     <p class="headline font-weight-bold white--text">Urabe and Hata Laboratory</p>
   </div>
 
-         <a href="http://www.takinoue-lab.jp/en/" class="card-link"> 
+         <a href="http://www.urabe-lab.bio.titech.ac.jp/" class="card-link"> 
          <v-card
             color="#ECEFF1"
             dark
@@ -250,6 +250,7 @@
       source: String,
     },
     data: () => ({
+
 
     }),
     message: "School of Life Science and Technology",
