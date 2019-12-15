@@ -15,14 +15,6 @@
    Result model
   </NLink>
 
-
-<<<<<<< HEAD
-  <NLink to="/sciphysics">
-   School of Science - Department of Physics
-  </NLink>
-  <br>
-
-=======
   <v-btn
       class='about-us-button'
       color="primary"
@@ -133,7 +125,6 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
->>>>>>> d255f1d7885b8b61c3b7ee40934634183263ad52
  </div>
 </template>
 
